@@ -1,6 +1,6 @@
 {
-  "name": "@terebentina/react-popover",
-  "version": "2.0.0",
+  "name": "@parkwhiz-js/react-popover",
+  "version": "2.1.0",
   "description": "Smart popover component for React. Closes when you click away, no need to reclick the trigger button to close it",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/terebentina/react-popover.git"
+    "url": "https://github.com/mbueti/react-popover.git"
   },
   "author": "Dan Caragea <dancaragea@gmail.com>",
   "license": "MIT",
@@ -31,9 +31,8 @@
     "eslint-plugin-react": "^7.0.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "node-sass": "^4.5.2",
-    "react": "^15.0.0",
     "react-addons-test-utils": "^15.0.0",
-    "react-dom": "^15.0.0",
+    "react-dom": "^16.2.0",
     "react-pure-render": "^1.0.2",
     "sass-loader": "^6.0.3",
     "sinon": "^2.2.0",
@@ -42,12 +41,15 @@
     "webpack": "^1.12.12"
   },
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "keywords": [
     "react",
     "react-component",
     "popover"
-  ]
+  ],
+  "dependencies": {
+    "react": "^16.2.0"
+  }
 }
